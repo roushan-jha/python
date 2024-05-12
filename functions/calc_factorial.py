@@ -1,0 +1,12 @@
+# write  a python program to calculate factorial of a number n
+
+n = (int)(input("Enter a number: "))
+
+def fact(num): 
+    fact = 1
+    for i in range(1, n+1):
+        fact *= i
+    return fact
+
+result = fact(n)
+print(result)
